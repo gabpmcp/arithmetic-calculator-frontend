@@ -1,0 +1,41 @@
+# Dependencias de Node.js
+/node_modules/
+
+# Archivos de construcción
+/build/
+/dist/
+
+# Archivos de configuración específicos del entorno
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Logs y reportes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de caché de herramientas
+/.cache/
+/coverage/
+
+# Herramientas de desarrollo
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Otros archivos no necesarios
+*.pem
+*.key
+*.crt
+*.log
+*.lock
+*.tmp
+*.bak
